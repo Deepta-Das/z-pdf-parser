@@ -1,0 +1,35 @@
+{
+  "name": "z-pdf-parser",
+  "version": "1.0.0",
+  "description": "------",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "javascript",
+    "pdf",
+    "parser",
+    "pdfparser",
+    "pdf.js",
+    "pdf2text",
+    "pdf-reader",
+    "pdfjs"
+  ],
+  "homepage": "https://github.com/Deepta-Das/z-pdf-parser",
+  "author": "Deepta Kiran Das",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deepta-Das/z-pdf-parser.git"
+  },
+  "engines": {
+    "node": ">=6.9.1"
+  },
+  "bugs": {
+    "url": "https://github.com/Deepta-Das/z-pdf-parser/issues"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
