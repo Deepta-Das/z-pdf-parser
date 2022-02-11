@@ -1,10 +1,10 @@
-const fs = require("fs");
-const MightyPDFParser = require("./lib/parser.js");
+
+const zPDF_Parser = require("./lib/parser.js");
 const debug = false;
 
 if (debug) {
-  const dataBuffer = fs.readFileSync("./test.pdf");
-  MightyPDFParser(dataBuffer, {
+  
+  zPDF_Parser("./test.pdf", {
     pageRange: true,
     startPage: 1,
     endPage: 3,
@@ -15,4 +15,4 @@ if (debug) {
   });
 }
 
-module.exports = MightyPDFParser;
+module.exports = zPDF_Parser;

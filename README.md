@@ -26,9 +26,6 @@ npm install z-pdf-parser
 
 ```javascript
 const PdfParser = require("z-pdf-parser");
-const fs = require("fs");
-
-const dataBuffer = fs.readFileSync("./my_document.pdf");
 
 const options = {
     // Activate pageRange option so you can parse pages with range.
@@ -42,7 +39,7 @@ const options = {
     endPage: 1
 }
 
-PdfParser(dataBuffer, options).then(response => {
+PdfParser("my_document.pdf", options).then(response => {
     // Response with number of pages that are parsed.
     console.log(response.pageCount);
     // Response with document metadata.
